@@ -1,0 +1,117 @@
+.chartwidget-section{
+    padding: 20px;
+}
+.container{
+  display: flex;
+  gap: 10px;
+}
+.cw-left{
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cw-left .card, .cw-left >div{
+    width: 48%;
+    padding: 20px;
+    min-height: 180px;
+    box-shadow: 0 0 2px rgba(33,33,33,.2); 
+    border-radius: 10px;
+
+}
+
+.w-top{
+    display: flex;
+    gap: 10px;
+}
+
+.tv-icon{
+  background-color: #b09ef9;
+}
+
+.td-icon{
+  background-color: #fb97ab;
+}
+
+.tc-icon{
+  background-color: #a3fbb8;
+}
+
+.tr-icon{
+  background-color: #fadd9f;
+}
+
+.tv-icon, .td-icon, .tc-icon, .tr-icon{
+ width: 35px;
+ height: 35px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;;
+}
+
+.v-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.v-right p{
+  font-size: 14px;
+}
+
+.v-right h3{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.w-bottom{
+
+}
+
+.cw-left .total-visitors{
+  background-color:#ebe6ff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cw-left .total-deliveries{
+  background-color:#ffe6eb;
+}
+.cw-left .total-clients{
+  background-color:#ecf9ef;
+}
+.cw-left .total-riders{
+  background-color:#fff7e6;
+}
+
+.cw-right{
+  flex: 1;
+  min-height: 180px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(33,33,33,.2); 
+}
+
+@media screen and (max-width: 768px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cw-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cw-left .card, .cw-left >div{
+      width: 100%;
+
+  }
+  
+}

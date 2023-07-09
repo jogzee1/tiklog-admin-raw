@@ -1,0 +1,65 @@
+.da-activities{
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(33,33,33,.2);
+}
+
+.daA-top{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.daA-top h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.da-activities .table {}
+    
+.da-activities .cellWrapper {
+      display: flex;
+      align-items: center;
+    }
+      .da-activities .image {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+    
+  
+    .da-activities .status {
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .da-activities .Delivered {
+        color: green;
+        background-color: rgba(0, 128, 0, 0.151);
+      }
+
+      .da-activities .Pending {
+        color: goldenrod;
+        background-color: rgba(189, 189, 3, 0.103);
+      }
+
+      .da-activities .viewButton {
+        padding: 7px 15px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+      }
+
+      .da-activities .viewButton:hover {
+        background-color:#1f6cb5;
+        color:  #fff;
+        border: none;
+    }
+    
+  

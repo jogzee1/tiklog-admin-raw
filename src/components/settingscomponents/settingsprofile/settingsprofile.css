@@ -1,0 +1,138 @@
+.settingsprofile-container{
+    display: flex;
+    gap: 25px;
+}
+
+.settingsprofile-container .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 0 2px rgba(33,33,33,.2); 
+    background-color: #fff;
+    padding: 20px;
+}
+
+.riderprofile-container.settingsprofile-container.riderprofile-container .dp{
+    width: 100px;
+    height: 100px;
+}
+
+.settingsprofile-container .upload-img{
+    position: absolute;
+    top: 20px;
+    right:0;
+    left: 80px;
+}
+
+.settingsprofile-container .upload-img input{
+    display: none;
+}
+.settingsprofile-container .upload-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.settingsprofile-container .right{
+    flex: 3;
+    box-shadow: 0 0 2px rgba(33,33,33,.2); 
+    background-color: #fff;
+    padding: 25px;
+}
+
+.settingsprofile-container .right h2{
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+}
+
+.settingsprofile-container .right p{
+    font-size: 15px;
+    margin: 2px 0px;
+    color: #000;
+}
+
+.settingsprofile-container .right .blue-p{
+    color: #1f6cb5;
+    font-weight: 500;
+ }
+
+
+ .settingsprofile-container .right .form{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.settingsprofile-container .right .f-group{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.settingsprofile-container .right .form-group{
+    flex: 1;
+    border: 1px solid #f6f6f6;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px rgba(33,33,33,.2); 
+    border-radius: 5px;
+}
+
+.settingsprofile-container .right .form-group label{
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+    padding: 0px 7px;
+   }
+
+
+.settingsprofile-container .right .form-group input, 
+.settingsprofile-container .right .form-group textarea,
+.settingsprofile-container .right .form-group select{
+    border: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    padding: 0px 7px;
+    line-height: none;
+    outline: none;
+   }::placeholder{
+    color: #9e9c9c;
+    font-weight: 200;
+   }
+
+   
+
+   *:focus {
+    outline: none;
+}
+
+.settingsprofile-container .f-group button{
+    width: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .settingsprofile-container{
+       flex-direction: column;
+    }
+
+    .settingsprofile-container .right .f-group{
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .settingsprofile-container .right .form-group{
+        flex: 1;
+        width: 100%;
+    }
+    
+  }

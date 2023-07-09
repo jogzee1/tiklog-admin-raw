@@ -1,0 +1,76 @@
+.clienthistory .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.clienthistory .history-list{
+    margin-top: 25px;
+}
+
+
+.singlehistory-section{
+    min-height: 100vh;
+}
+
+.singlehistory-section .container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.singlehistory-section .container .left{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 0 2px rgba(33,33,33,.2);
+}
+
+.his-right p{
+   text-align: right;
+}
+
+.his-left p{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+
+ .his-left, .his-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+
+.history-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-content .sh-flex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.history-content .sh-flex img{
+    height: 30px;
+    width: 30px;
+}
+.his-mt{
+    margin-top: 10px;
+}
+
+
+.singlehistory-section .container .right{
+    flex: 1;
+    padding: 20px;
+}
+
+.singlehistory-section .container .right img{
+    height: 500px;
+}

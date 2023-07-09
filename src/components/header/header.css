@@ -1,0 +1,33 @@
+.header{
+    padding: 5px 20px;
+    background-color:#f8f7fd;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.h-left-menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.h-right-menu{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.h-user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.h-user img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

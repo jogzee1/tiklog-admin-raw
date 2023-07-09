@@ -1,0 +1,145 @@
+.riderprofile-container{
+    display: flex;
+    gap: 25px;
+}
+
+.riderprofile-container .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 0 2px rgba(33,33,33,.2); 
+    background-color: #fff;
+    padding: 20px;
+}
+
+.riderprofile-container .imgs-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.riderprofile-container .dp{
+    width: 100px;
+    height: 100px;
+}
+
+.riderprofile-container .upload-img{
+    position: absolute;
+    top: 20px;
+    right:0;
+    left: 80px;
+}
+
+.riderprofile-container .upload-img input{
+    display: none;
+}
+.riderprofile-container .upload-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.riderprofile-container .right{
+    flex: 3;
+    box-shadow: 0 0 2px rgba(33,33,33,.2); 
+    background-color: #fff;
+    padding: 25px;
+}
+
+.riderprofile-container .right h2{
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+}
+
+.riderprofile-container .right p{
+    font-size: 15px;
+    margin: 2px 0px;
+    color: #000;
+}
+
+.riderprofile-container .right .blue-p{
+    color: #1f6cb5;
+    font-weight: 500;
+ }
+
+
+ .riderprofile-container .right .form{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.riderprofile-container .right .f-group{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.riderprofile-container .right .form-group{
+    flex: 1;
+    border: 1px solid #f6f6f6;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px rgba(33,33,33,.2); 
+    border-radius: 5px;
+}
+
+.riderprofile-container .right .form-group label{
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+    padding: 0px 7px;
+   }
+
+
+.riderprofile-container .right .form-group input, 
+.riderprofile-container .right .form-group textarea,
+.riderprofile-container .right .form-group select{
+    border: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    padding: 0px 7px;
+    line-height: none;
+    outline: none;
+   }::placeholder{
+    color: #9e9c9c;
+    font-weight: 200;
+   }
+
+   
+
+   *:focus {
+    outline: none;
+}
+
+.f-group button{
+    width: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .riderprofile-container{
+       flex-direction: column;
+    }
+
+    .riderprofile-container .right .f-group{
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .riderprofile-container .right .form-group{
+        flex: 1;
+        width: 100%;
+    }
+    
+  }

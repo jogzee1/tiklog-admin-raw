@@ -1,0 +1,65 @@
+.dar-container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(33,33,33,.2);
+  gap: 20px; 
+}
+
+.dar-top{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dar-top h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dar-top p{
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.dar-down{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #dbdada;
+}
+
+.dar-down img{
+  height: 40px;
+  width: 40px;
+}
+
+.dar-down p{
+    font-size: 14px;
+    color:#333;
+    margin-bottom: 5px;
+}
+
+.dar-down span{
+    font-size: 12px;
+    color: #b3b1b1;
+}
+
+.dar-down .viewButton {
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: #1f6cb5;
+    border: 1px dotted rgba(0, 0, 139, 0.596);
+    cursor: pointer;
+  }
+
+  .dar-down .viewButton:hover {
+    background-color:#1f6cb5;
+    color:  #fff;
+    border: none;
+}

@@ -1,0 +1,76 @@
+.riderhistory .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.riderhistory  .history-list{
+    margin-top: 25px;
+}
+
+
+.ridersinglehistory-section{
+    min-height: 100vh;
+}
+
+.ridersinglehistory .container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.ridersinglehistory .container .left{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 0 2px rgba(33,33,33,.2);
+}
+
+.ridersinglehistory .his-right p{
+   text-align: right;
+}
+
+.ridersinglehistory .his-left p{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+
+ .ridersinglehistory .his-left, .his-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+
+.ridersinglehistory .history-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ridersinglehistory .history-content .sh-flex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.ridersinglehistory .history-content .sh-flex img{
+    height: 30px;
+    width: 30px;
+}
+.ridersinglehistory .his-mt{
+    margin-top: 10px;
+}
+
+
+.ridersinglehistory-section .container .right{
+    flex: 1;
+    padding: 20px;
+}
+
+.ridersinglehistory-section .container .right img{
+    height: 500px;
+}
